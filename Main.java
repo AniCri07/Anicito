@@ -101,7 +101,7 @@ public class Main {
         scrollPaneContatti.setBounds(10, 25, 459, 240);
         frame.getContentPane().add(scrollPaneContatti);
 
-        JButton btnInserisci = new JButton("+");
+        JButton btnInserisci = new JButton("Ins");
         btnInserisci.setBounds(215, 265, 60, 23);
 
         btnInserisci.addActionListener(new ActionListener() {
