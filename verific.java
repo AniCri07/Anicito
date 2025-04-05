@@ -57,9 +57,12 @@ public class verific {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		List<Mezzo> mezzi = new ArrayList<Mezzo>();
+
+		mezzi.add(new Mezzo("Barca",5));
 		mezzi.add(new Mezzo("Auto",3));
 		mezzi.add(new Mezzo("Moto",2));
 		mezzi.add(new Mezzo("Bici",1));
+		
 		JComboBox<String> cmbBoxMezzi = new JComboBox<String>();
 		for (Mezzo mezzo : mezzi) {
 			cmbBoxMezzi.addItem(mezzo.getNome()+" €"+mezzo.getValue());
