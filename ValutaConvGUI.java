@@ -49,6 +49,8 @@ public class ValutaConvGUI {
 	 */
 	private void initialize() {
 		List<Valuta> valute = new ArrayList<Valuta>();
+
+		valute.add(new Valuta("Zloty",0.23f));
 		valute.add(new Valuta("$",0.96f));
 		valute.add(new Valuta("¥",0.0064f));
 		valute.add(new Valuta("₽",0.011f));
